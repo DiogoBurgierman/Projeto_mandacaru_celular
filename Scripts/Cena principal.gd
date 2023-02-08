@@ -1,5 +1,7 @@
 extends Node2D
 
+var next = false
+
 
 func _ready():
 	var control_screen = load("res://Screens/teladeseleção.tscn").instance()
@@ -7,5 +9,5 @@ func _ready():
 
 
 func _on_Area2D_body_entered(body):
-	pass
-	
+	$KinematicBody2D.block = ''
+	next = true
