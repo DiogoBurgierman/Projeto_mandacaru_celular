@@ -99,8 +99,10 @@ texture = SubResource( 2 )
 expand = true
 
 [node name="ColorRect" type="ColorRect" parent="."]
-margin_right = 1920.0
-margin_bottom = 790.0
+margin_left = 3.0
+margin_top = 2.0
+margin_right = 1923.0
+margin_bottom = 792.0
 
 [node name="TileMap" type="TileMap" parent="ColorRect"]
 tile_set = SubResource( 3 )
@@ -123,6 +125,7 @@ position = Vector2( 32, 192 )
 scale = Vector2( 0.0941289, 0.0974887 )
 frames = SubResource( 9 )
 animation = "Anima"
+frame = 2
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
