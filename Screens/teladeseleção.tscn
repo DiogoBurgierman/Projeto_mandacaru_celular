@@ -3,8 +3,8 @@
 [node name="teladeseleção" type="Node2D"]
 
 [node name="ColorRect" type="ColorRect" parent="."]
-margin_left = 1370.0
-margin_top = 10.0
+margin_left = 10.0
+margin_top = 800.0
 margin_right = 1910.0
 margin_bottom = 1070.0
 color = Color( 0.364706, 0.0470588, 0.560784, 0.521569 )

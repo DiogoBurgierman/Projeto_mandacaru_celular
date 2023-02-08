@@ -58,20 +58,18 @@ anchor_bottom = 1.0
 color = Color( 0, 0, 0, 0.682353 )
 
 [node name="Botoes" type="VBoxContainer" parent="."]
-anchor_left = 0.5
-anchor_top = 0.553
-anchor_right = 0.5
-anchor_bottom = 0.553
-margin_left = -359.0
-margin_top = 17.7599
-margin_right = 361.0
-margin_bottom = 235.76
+anchor_top = 0.39
+anchor_right = 1.0
+anchor_bottom = 0.839
+margin_top = -109.0
+margin_bottom = 109.0
 custom_constants/separation = 58
 alignment = 1
 
 [node name="Botãoaluno" type="Button" parent="Botoes"]
-margin_right = 720.0
-margin_bottom = 80.0
+margin_top = 242.0
+margin_right = 1920.0
+margin_bottom = 322.0
 theme = SubResource( 2 )
 custom_colors/font_color_disabled = Color( 0.968627, 1, 0, 0.8 )
 custom_colors/font_color_hover = Color( 0.0313726, 0, 1, 0.737255 )
@@ -85,9 +83,9 @@ text = "Aluno(a)"
 icon_align = 1
 
 [node name="Botãoprofessor" type="Button" parent="Botoes"]
-margin_top = 138.0
-margin_right = 720.0
-margin_bottom = 218.0
+margin_top = 380.0
+margin_right = 1920.0
+margin_bottom = 460.0
 theme = SubResource( 2 )
 custom_colors/font_color_disabled = Color( 0.933333, 1, 0.0117647, 0.752941 )
 custom_colors/font_color_hover = Color( 0.184314, 0, 1, 0.756863 )
@@ -125,9 +123,9 @@ align = 1
 valign = 1
 
 [node name="Label2" type="Label" parent="."]
-margin_left = 67.0
-margin_top = 1844.0
-margin_right = 1017.0
-margin_bottom = 1987.0
+margin_left = 486.0
+margin_top = 1027.0
+margin_right = 1436.0
+margin_bottom = 1170.0
 theme = SubResource( 13 )
 text = "Jogo desenvolvido pelo Grupo Mandacaru"
